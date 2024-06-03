@@ -1,0 +1,8 @@
+alias gs='git status'
+alias gc='git checkout'
+alias gr='git pull origin master --rebase'
+gp()
+{
+  git commit -m $1 && git push
+}
+
