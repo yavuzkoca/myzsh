@@ -1,0 +1,8 @@
+source ~/.myzsh/zsh
+source ~/.myzsh/up
+source ~/.myzsh/ar
+source ~/.myzsh/git
+source ~/.myzsh/klarna
+source ~/.myzsh/yarn
+# source ~/.myzsh/volta
+source ~/.myzsh/nvm
