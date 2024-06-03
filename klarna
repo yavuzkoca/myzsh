@@ -1,0 +1,24 @@
+# directories
+alias klarna='cd ~/klarna'
+alias banking-home='klarna && cd ./banking-home'
+alias klarna-app='banking-home && cd ./klarna-app'
+alias clients='klarna-app && cd ./clients'
+alias services='klarna-app && cd ./services'
+alias websites='klarna-app && cd ./websites'
+alias scp='websites && cd ./service-center-portal'
+alias unorepo='cd ~/klarna/banking-home/consumer-banking-platform-serverless'
+
+# files
+alias lo='klarna-app && code clients/packages/core/config/src/localOverrides.ts'
+
+# klapp
+alias ybos='clients && yarn build:oneoff:both -e staging --skip-env-edit'
+alias yboy='clients && yarn build:oneoff:both -e yellow --skip-env-edit'
+alias fp='clients && klapp workspaces validatePackages . --includePipelineValidationTasks --includePipelineFixTasks --ignoreKnownErrors --diffBranch'
+alias ios='clients && yarn && yarn run:ios && yarn start:packager'
+
+# generate token
+alias token='services && cd ./auth && yarn customAccessToken'
+
+# banking-home
+alias cbt='banking-home && cd utils && ./prepare_cbt.sh && services && cd consumer-banking-transactions'
