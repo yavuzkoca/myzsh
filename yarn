@@ -1,0 +1,4 @@
+export PATH="$PATH:$(yarn global bin)"
+export PATH=~/.yarn/bin:$PATH
+export PATH=$PATH:/Users/yavuz.koca/.yarn/bin
+
