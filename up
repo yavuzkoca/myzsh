@@ -1,0 +1,8 @@
+# typing cd .. is too hard. Instead: up, up 5, up 3 better
+up()
+{
+  if [[ $# -gt 0 ]]
+    then for (( i = 0; i < $@; i++ )) ; do cd ..; done
+    else cd ..
+  fi
+}
