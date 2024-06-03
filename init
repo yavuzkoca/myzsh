@@ -1,3 +1,6 @@
+# Add this file from `.zshrc` or `.bash_profile` or whatever
+# source ~/.myzsh/init
+
 source ~/.myzsh/zsh
 source ~/.myzsh/up
 source ~/.myzsh/ar
